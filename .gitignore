@@ -1,1 +1,15 @@
 arquivos-secretos/ 
+# Ignorar arquivos de cache e temporários
+*.log
+*.pyc
+*.pyo
+*.class
+*.swp
+
+# Ignorar pasta de dependências (exemplo para Node.js)
+node_modules/
+
+# Ignorar arquivos sensíveis (exemplo de chaves, senhas)
+*.env
+*.key
+*.pem
